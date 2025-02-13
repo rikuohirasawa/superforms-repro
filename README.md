@@ -1,3 +1,9 @@
+There seems to be a behaviour in superforms, when defining a minimum length string in a nested record.
+
+It will throw the following error: `TypeError: Cannot use 'in' operator to search for '__items' in undefined`
+
+See `+page.server.ts` to test this locally
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
